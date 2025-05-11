@@ -91,9 +91,13 @@ Cloud deployment via AWS / Azure / GCP
 
 👥 Team Members
 Name	Role	Contribution
+
 Priyadharshini R	Lead	Coordination, documentation, data engineering
+
 Nandhitha M	Data Engineer	Data collection, cleaning, preprocessing
+
 Varshini S, Vaishnavi A	NLP Specialist / Data	Feature engineering, model evaluation
+
 Sonika R	Data Analyst / Visualization	EDA, visualizations, insight generation
 
 🔗 GitHub Repository
