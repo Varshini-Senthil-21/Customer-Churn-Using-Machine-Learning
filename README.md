@@ -89,7 +89,7 @@ Best model: **Random Forest** (tuned with GridSearchCV).
 
 ## 🔗 GitHub Repository
 
-[Project Repository](https://github.com/nandhu345-coder/phase_2.git)
+[Project Repository](https://github.com/Varshini-Senthil-21/Customer-Churn-Using-Machine-Learning)
 
 ---
 
