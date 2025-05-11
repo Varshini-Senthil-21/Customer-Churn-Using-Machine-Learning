@@ -1,104 +1,95 @@
-🧠 Predicting Customer Churn Using Machine Learning to Uncover Hidden Patterns
-📌 Problem Statement
-Customer churn is a major concern for businesses, especially those with subscription-based models. This project uses machine learning to predict customer churn by analyzing historical customer data to uncover hidden behavioral patterns. The goal is to enable proactive retention strategies and improve customer lifetime value.
+# phase_2
 
-🎯 Objectives
-Predict customer churn using machine learning
+# Predicting Customer Churn Using Machine Learning to Uncover Hidden Patterns
 
-Analyze historical data to identify risk indicators and patterns
+## 📌 Problem Statement
 
-Enable organizations to take timely retention actions
+Customer churn is a major concern for businesses, especially in subscription-based models. This project focuses on using machine learning to predict customer churn by analyzing historical customer data to uncover hidden behavioral patterns. The goal is to enable proactive retention strategies and improve customer lifetime value.
 
-🛠️ Project Workflow
-Data Collection – Gather customer data: demographics, transactions, support logs
+## 🎯 Objectives
 
-Preprocessing – Clean data, handle missing values, encode variables, scale features
+- Predict customer churn using machine learning.
+- Analyze historical data to identify risk indicators and patterns.
+- Enable organizations to take timely retention actions.
 
-EDA – Visualize patterns and correlations
+## 🛠️ Project Workflow
 
-Feature Selection – Identify relevant predictors
+1. **Data Collection** – Gather customer data: demographics, transactions, support logs.
+2. **Preprocessing** – Clean data, handle missing values, encode variables, scale features.
+3. **EDA** – Visualize patterns and correlations.
+4. **Feature Selection** – Identify relevant predictors.
+5. **Modeling** – Train multiple models (Logistic Regression, Random Forest, XGBoost).
+6. **Evaluation** – Use metrics like Accuracy, F1, ROC AUC.
+7. **Interpretation** – Apply SHAP to explain predictions.
+8. **Deployment (Optional)** – API or dashboard integration.
+9. **Monitoring** – Track performance and retrain with new data.
 
-Modeling – Train multiple models (Logistic Regression, Random Forest, XGBoost)
+## 🧾 Dataset Features
 
-Evaluation – Use metrics like Accuracy, F1 Score, ROC AUC
+| Feature Name            | Description                                      |
+|-------------------------|--------------------------------------------------|
+| CustomerID              | Unique customer identifier                       |
+| Gender                  | Customer’s gender                                |
+| Age                     | Age of the customer                              |
+| Tenure                  | Months with the company                          |
+| SubscriptionType        | Subscription plan type                           |
+| MonthlyCharges          | Monthly billing amount                           |
+| TotalCharges            | Total amount charged                             |
+| PaymentMethod           | Payment mode used                                |
+| ContractType            | Length of the contract                           |
+| InternetService         | Type of internet service                         |
+| OnlineSecurity          | Online security add-on status                    |
+| TechSupport             | Tech support add-on status                       |
+| StreamingServices       | Use of streaming services                        |
+| CustomerSupportCalls    | Support contact count                            |
+| LastInteractionDate     | Date of last customer activity                   |
+| Churn                   | Target variable (1 = Yes, 0 = No)                |
 
-Interpretation – Apply SHAP to explain predictions
+## ⚙️ Technologies Used
 
-Deployment (Optional) – API or dashboard integration
+- **Languages/Libraries**: Python, Pandas, Scikit-learn, XGBoost, SHAP, Seaborn, Matplotlib
+- **Modeling**: Logistic Regression, Random Forest, XGBoost
+- **Visualization**: SHAP, confusion matrix, ROC curve
+- **Deployment (Optional)**: Flask, Streamlit, Docker
+- **Version Control**: Git, GitHub
 
-Monitoring – Track performance and retrain with new data
+## 📊 EDA Highlights
 
-🧾 Dataset Features
-Feature Name	Description
-CustomerID	Unique customer identifier
-Gender	Customer’s gender
-Age	Age of the customer
-Tenure	Months with the company
-SubscriptionType	Subscription plan type
-MonthlyCharges	Monthly billing amount
-TotalCharges	Total amount charged
-PaymentMethod	Payment mode used
-ContractType	Length of the contract
-InternetService	Type of internet service
-OnlineSecurity	Online security add-on status
-TechSupport	Tech support add-on status
-StreamingServices	Use of streaming services
-CustomerSupportCalls	Support contact count
-LastInteractionDate	Date of last customer activity
-Churn	Target variable (1 = Yes, 0 = No)
+- Distribution plots, bar charts, and box plots
+- Correlation heatmaps
+- Churn analysis by contract type, support calls, etc.
+- SHAP plots to interpret feature influence
 
-⚙️ Technologies Used
-Languages/Libraries: Python, Pandas, Scikit-learn, XGBoost, SHAP, Seaborn, Matplotlib
+## 📈 Model Performance
 
-Modeling: Logistic Regression, Random Forest, XGBoost
+Models were evaluated using:
 
-Visualization: SHAP, confusion matrix, ROC curve
+- Accuracy
+- Precision
+- Recall
+- F1 Score
+- ROC AUC
 
-Deployment (Optional): Flask, Streamlit, Docker
+Best model: **Random Forest** (tuned with GridSearchCV).
 
-Version Control: Git, GitHub
+## 📤 Deployment (Optional)
 
-📊 EDA Highlights
-Distribution plots, bar charts, and box plots
+- REST API using Flask or FastAPI
+- Interactive dashboards using Streamlit
+- Cloud deployment using AWS / Azure / GCP
 
-Correlation heatmaps
+## 👥 Team Members
 
-Churn analysis by contract type, support calls, etc.
+| Name            | Role                          | Contribution                                  |
+|-----------------|-------------------------------|-----------------------------------------------|
+| Priyadharshini R | Lead                          | Coordination, documentation, data engineering |
+| Nandhitha M      | Data Engineer                 | Data collection, cleaning, preprocessing       |
+| Varshini S, Vaishnavi A | NLP Specialist / Data         | Feature engineering, model evaluation         |
+| Sonika R         | Data Analyst / Visualization  | EDA, visualizations, insight generation        |
 
-SHAP plots to interpret feature influence
+## 🔗 GitHub Repository
 
-📈 Model Performance
-Models were evaluated using the following metrics:
+[Project Repository](https://github.com/nandhu345-coder/phase_2.git)
 
-Accuracy
+---
 
-Precision
-
-Recall
-
-F1 Score
-
-ROC AUC
-
-Best model: Random Forest (tuned using GridSearchCV)
-
-📤 Deployment (Optional)
-REST API using Flask or FastAPI
-
-Interactive dashboards using Streamlit
-
-Cloud deployment via AWS / Azure / GCP
-
-👥 Team Members
-Name	Role	Contribution
-
-Priyadharshini R	Lead	Coordination, documentation, data engineering
-
-Nandhitha M	Data Engineer	Data collection, cleaning, preprocessing
-
-Varshini S, Vaishnavi A	NLP Specialist / Data	Feature engineering, model evaluation
-
-Sonika R	Data Analyst / Visualization	EDA, visualizations, insight generation
-
-🔗 GitHub Repository
-Project Repository (Insert your actual repo link here)
